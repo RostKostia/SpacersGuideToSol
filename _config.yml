@@ -1,0 +1,10 @@
+title: "Spacer's Guide to Sol"
+description: Справочник сеттинга для игроков
+theme: jekyll-theme-cayman
+lang: ru
+
+kramdown:
+  toc_levels: 1..2
+
+exclude:
+  - README.md
