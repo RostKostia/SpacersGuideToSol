@@ -2,7 +2,7 @@
 title: "Орден"
 description: "Культисты, ведущие бесконечную священную войну"
 category: factions
-group: "Система Стейпл"
+group: "Другие системы"
 order: 13
 ---
 

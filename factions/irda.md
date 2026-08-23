@@ -2,7 +2,7 @@
 title: "Ирда"
 description: "Наследственная монархия, евгеника и рабство"
 category: factions
-group: "Система Стейпл"
+group: "Другие системы"
 order: 15
 ---
 
