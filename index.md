@@ -16,18 +16,18 @@ description: "Справочник сеттинга для игроков"
     <span class="card-count">{{ timeline | size }}</span>
     <span class="card-name">Таймлайн</span>
     <span class="card-desc">От Эры Падения до наших дней.</span>
-    <span class="card-meta">{{ timeline | size }}&nbsp;{% include plural.html n=timeline.size one="материал" few="материала" many="материалов" %}</span>
+    <span class="card-meta">{{ timeline | size }}&nbsp;{% assign n = timeline | size %}{% assign m100 = n | modulo: 100 %}{% assign m10 = n | modulo: 10 %}{% if m100 >= 11 and m100 <= 14 %}материалов{% elsif m10 == 1 %}материал{% elsif m10 >= 2 and m10 <= 4 %}материала{% else %}материалов{% endif %}</span>
   </a>
   <a class="card" href="{{ '/factions/' | relative_url }}">
     <span class="card-count">{{ factions | size }}</span>
     <span class="card-name">Фракции</span>
     <span class="card-desc">Государства, кланы и их владения.</span>
-    <span class="card-meta">{{ factions | size }}&nbsp;{% include plural.html n=factions.size one="материал" few="материала" many="материалов" %}</span>
+    <span class="card-meta">{{ factions | size }}&nbsp;{% assign n = factions | size %}{% assign m100 = n | modulo: 100 %}{% assign m10 = n | modulo: 10 %}{% if m100 >= 11 and m100 <= 14 %}материалов{% elsif m10 == 1 %}материал{% elsif m10 >= 2 and m10 <= 4 %}материала{% else %}материалов{% endif %}</span>
   </a>
   <a class="card" href="{{ '/other/' | relative_url }}">
     <span class="card-count">{{ other | size }}</span>
     <span class="card-name">Другое</span>
     <span class="card-desc">Расы, справочные материалы, всё прочее.</span>
-    <span class="card-meta">{{ other | size }}&nbsp;{% include plural.html n=other.size one="материал" few="материала" many="материалов" %}</span>
+    <span class="card-meta">{{ other | size }}&nbsp;{% assign n = other | size %}{% assign m100 = n | modulo: 100 %}{% assign m10 = n | modulo: 10 %}{% if m100 >= 11 and m100 <= 14 %}материалов{% elsif m10 == 1 %}материал{% elsif m10 >= 2 and m10 <= 4 %}материала{% else %}материалов{% endif %}</span>
   </a>
 </div>
