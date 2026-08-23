@@ -1,0 +1,15 @@
+title: "Spacer's Guide to Sol"
+description: "Справочник сеттинга для игроков"
+lang: ru
+
+kramdown:
+  toc_levels: 1..2
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
