@@ -49,6 +49,4 @@ order: 11
 
 ---
 
----
-
 [← Все фракции]({{ '/factions/' | relative_url }})
