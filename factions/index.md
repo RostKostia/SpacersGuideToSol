@@ -10,7 +10,7 @@ description: "Государства, кланы и их владения"
 {% for g in groups %}
 ## {{ g }}
 
-{% for f in factions %}{% if f.group == g %}- [**{{ f.title }}**]({{ f.url | relative_url }}) — {{ f.description }}
+{% for f in factions %}{% if f.group == g %}- [**{{ f.title }}**]({{ f.url | relative_url }}) - {{ f.description }}
 {% endif %}{% endfor %}
 {% endfor %}
 

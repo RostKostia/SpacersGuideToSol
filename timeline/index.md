@@ -19,7 +19,7 @@ description: "Хронология событий"
 
 После коммита он сам появится в этом списке, а счётчик на главной обновится.
 {% else %}
-{% for t in timeline %}- [**{{ t.title }}**]({{ t.url | relative_url }}) — {{ t.description }}
+{% for t in timeline %}- [**{{ t.title }}**]({{ t.url | relative_url }}) - {{ t.description }}
 {% endfor %}
 {% endif %}
 
