@@ -2,6 +2,12 @@ title: "Spacer's Guide to Sol"
 description: "Справочник сеттинга для игроков"
 lang: ru
 
+# Для проектных сайтов (username.github.io/ИМЯ-РЕПОЗИТОРИЯ) baseurl обязателен.
+# Если переименуешь репозиторий — поправь эту строку.
+# Если когда-нибудь переедешь на username.github.io — поставь пустую строку: baseurl: ""
+url: "https://rostkostia.github.io"
+baseurl: "/SpacersGuideToSol"
+
 kramdown:
   toc_levels: 1..2
 
