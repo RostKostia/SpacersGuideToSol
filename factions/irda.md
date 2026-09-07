@@ -3,7 +3,7 @@ title: "Ирда"
 description: "Наследственная монархия, евгеника и рабство"
 category: factions
 group: "Другие системы"
-order: 15
+order: 16
 ---
 
 | | |

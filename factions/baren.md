@@ -3,7 +3,7 @@ title: "Баренская Республика"
 description: "Столица науки с непробиваемой обороной"
 category: factions
 group: "Другие системы"
-order: 12
+order: 13
 ---
 
 | | |

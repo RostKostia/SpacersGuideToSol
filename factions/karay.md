@@ -3,7 +3,7 @@ title: "Карайская Федерация"
 description: "Конфедерация технитов в системе Тау Кита"
 category: factions
 group: "Другие системы"
-order: 7
+order: 8
 ---
 
 | | |

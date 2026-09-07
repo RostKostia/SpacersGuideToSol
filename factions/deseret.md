@@ -3,7 +3,7 @@ title: "Дезерет"
 description: "Замкнутая религиозная община на токсичной планете"
 category: factions
 group: "Другие системы"
-order: 14
+order: 15
 ---
 
 | | |

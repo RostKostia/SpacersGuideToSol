@@ -3,7 +3,7 @@ title: "Орден"
 description: "Культисты, ведущие бесконечную священную войну"
 category: factions
 group: "Другие системы"
-order: 13
+order: 14
 ---
 
 | | |

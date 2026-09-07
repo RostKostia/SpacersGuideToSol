@@ -3,7 +3,7 @@ title: "Новая Земля"
 description: "Копия Земли без единого правительства"
 category: factions
 group: "Другие системы"
-order: 8
+order: 9
 ---
 
 | | |
